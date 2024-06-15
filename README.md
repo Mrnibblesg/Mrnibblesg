@@ -1,8 +1,12 @@
 ### Welcome to my profile :)
 More to come in the future.  
-Current project(s): A flow chart desktop app using the Windows API.
+Current project(s): TBD
 
 Other projects:
+Unity voxel terrain engine: A voxel terrain generation engine built in Unity! It efficiently generates voxel-based terrain and dynamically creates meshes for them. The user can edit terrain block-by-block or in larger chunks. It's networked so you can build the app and play with friends (port 7777). It implements a custom data structure to efficiently store the voxels in each chunk.
+
+Little flowchart app: A flow chart desktop app using the Windows API.
+
 Chess website - A project from my Web Scripting class. The chess website implemented a fully functional chess website using a MERN stack, with socket.io added for real-time chess games. Users can create accounts, queue into matchmaking, and even spectate other games. 
 
 Protein mutation visualization site - My senior project for CS that I worked on with two other team members. The protein mutation site aims to help researchers find protein mutants suitable to be subjects of research through visualization by various protein metrics.
