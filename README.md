@@ -2,7 +2,7 @@
 More to come in the future.  
 Current project(s):
 - Multi-agent robot systems at the Minimalistic Robotics for the Planet (MRRP) lab
-- A tool for waking a remote computer from sleep.
+- A tool for waking a remote computer from sleep, and then connecting to it.
 
 ## Other projects (New to old):
 
