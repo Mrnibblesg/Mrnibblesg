@@ -1,10 +1,13 @@
 # Welcome to my profile! Please browse my projects:
 More to come in the future.  
 Current project(s):
-- Multi-agent robot systems at the Minimalistic Robotics for the Planet (MRRP) lab
-- A tool for waking a remote computer from sleep, and then connecting to it.
 
 ## Other projects (New to old):
+
+- **Cluttered Obstacle Field Traversal ([Link](https://github.com/MRRP-lab/cluttered-navigation)):** A python simulator which simulates a swarm of robots traversing through a cluttered obstacle field for my research at university. I was the lead on this project and it was created in order to fill a gap in multi-robot systems literature between bug algorithms and random walk algorithms. It features the python simulator itself and decentralized swarm control algorithm and obstacle field generation. It includes: a data generation pipeline including a parameter sweep script, simulation database to query results from a generated index; a data analysis pipeline which generates metrics characterizing each simulation, and a plotting script with a rich interface to easily study inferences based on simulation parameters; It uses protocol buffers to invoke and integrate external swarm control algorithms for comparisons using programs in different langauges. Currently implemented is an offline centralized swarm path solver that I needed to modify from the original source to be able to invoke it via a client-server architecture spun up during the parameter sweep.
+We ended up producing a paper titled "A Randomized Bug Algorithm for Swarm Navigation in Dense Obstacle Fields", submitted to DARS2026.
+
+- **Wake on Lan ([Link](https://github.com/Mrnibblesg/WakeOnLan)):** A C program that crafts and sends a magic packet to wake up a powered off computer over LAN. It's based on AMD's "Magic Packet Technology" whitepaper viewable [here](https://www.amd.com/content/dam/amd/en/documents/archived-tech-docs/white-papers/20213.pdf).
 
 - **Blitz OS Kernel (Private):** An OS kernel for an emulated CPU. Implements necessary system calls for any functional operating system, including process creation/spawning, spawning the first user process, virtual address translation, file I/O, fork/exec, process synchronization, as well as error handling for everything mentioned. All is written in a custom programming language called KPL (Kernel Programming Language)
 
